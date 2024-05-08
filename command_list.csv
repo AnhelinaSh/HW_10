@@ -1,0 +1,87 @@
+    1  ls -l
+    2  git push
+    3  git config --global user.name "Anhelina"
+    4  git config --global user.email "iskraangelina@gmail.com"
+    5  git clone https://github.com/AnhelinaSh/HW_10
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  echo "text_ignore.txt" >> .gitignore
+    9  git status
+   10  git add .
+   11  git commit -m "added file text_ignore.txt and added in .gitignore"
+   12  touch main_test.txt
+   13  git add.
+   14  git add .
+   15  git commit -m "added empty file main_test.txt"
+   16  git clone https://github.com/AnhelinaSh/HW_10.git
+   17  cd HW_10
+   18  git config --global user.name "Anhelina Shestavetska"
+   19  git config --global user.email "iskraangelina@gmail.com"
+   20  touch text_ignore.txt
+   21  ls -l
+   22  git status
+   23  git add text_ignore.txt
+   24  git status
+   25  git commit -m "File added"
+   26  git push
+   27  echo "text_ignore.txt" >> .gitignore
+   28  git status
+   29  ls -l
+   30  git status
+   31  git add .
+   32  git commit -m "File added to gitignare"
+   33  touch main_test.txt
+   34  git add .
+   35  git status
+   36  git commit -m "main_test,txt added"
+   37  git push
+   38  git checkout -b develop
+   39  touch develop_test.txt
+   40  git add .
+   41  git commit -m "Added develop_test.txt"
+   42  vim develop_test.txt
+   43  cat develop_test.txt
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit -m "Changes applied"
+   48  git checkout main
+   49  git merge develop
+   50  git log
+   51  history > command_list,csv
+   52  git add .
+   53  git commit -m "loaded"
+   54  git push origin main
+   55  /c/Users/Angelina/OneDrive/Документы/универ/марафон/HW11/HW_10
+   56  cd /c/Users/Angelina/OneDrive/Документы/универ/марафон/HW11/HW_10/HW_10
+   57  cd /c/Users/Angelina/OneDrive/Документы/универ/марафон/HW11
+   58  clone https://github.com/AnhelinaSh/HW_10.git
+   59  clear
+   60  git clone https://github.com/AnhelinaSh/HW_10.git
+   61  cd HW_10
+   62  git config --global user.name "Anhelina Shestavetska"
+   63  [200~
+   64  git config --global user.email "iskraangelina@gmail.com"
+   65  touch text_ignore.txt
+   66  git status
+   67  git add text_ignore.txt
+   68  git status
+   69  echo "text_ignore.txt" >> .gitignore
+   70  git add .
+   71  git commit -m "File added to gitignore"
+   72  touch main_test.txt    
+   73  git add .
+   74  git commit -m "main_test.txt added"
+   75  git checkout -b develop 
+   76  touch develop_test.txt
+   77  git add .
+   78  git commit -m "Added develop_test.txt"
+   79  vim develop_test.txt
+   80  cat develop_test.txt
+   81  git status
+   82  git add .
+   83  git commit -m "Changes applied"
+   84  git checkout main
+   85  git merge develop
+   86  git log
+   87  history > command_list.csv
